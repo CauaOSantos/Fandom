@@ -138,3 +138,29 @@ header {
   padding-left: 50px;
   height: 500px;
 }
+
+.item-table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+.item-table tr {
+  border-bottom: 1px solid #444;
+}
+
+.item-table td {
+  padding: 10px;
+  vertical-align: top;
+  color: #c0c0c0;
+}
+
+.item-table img {
+  width: 50px;
+  height: 50px;
+}
+
+.item-table strong {
+  font-size: 18px;
+  color: #ffffff;
+}
