@@ -134,3 +134,7 @@ header {
   font: 500 italic 1.25rem / 2rem Perpetua, "Times New Roman", serif;
   color: #c0c0c0;
 }
+.tenor-gif-embed {
+  padding-left: 50px;
+  height: 500px;
+}
