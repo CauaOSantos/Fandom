@@ -21,7 +21,7 @@
           <div class="nav_container">
             <nav>
               <ul class="nav__list">
-                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="index.html">Home</a></li>
                 <li><a href="itens.html">Itens</a></li>
                 <li><a href="spells.html">Spells</a></li>
                 <li><a href="npcs.html">NPCs</a></li>
@@ -39,76 +39,95 @@
           </div>
         </header>
       </div>
-      <main>
-        <!-- Seção de Home -->
-        <section class="section welcome">
-          <div class="welcome__content">
-            <h1>Bem-vindo à Wiki de Hollow Knight</h1>
-            <p>
-              Explore o mundo de Hallownest e descubra todos os segredos, itens,
-              feitiços, NPCs e chefes.
-            </p>
-          </div>
-          <img
-            src="images/backhome.png"
-            alt="Hollow Knight"
-            class="welcome__image"
-          />
-        </section>
+      <div class="content">
+        <!-- Barra de navegação lateral -->
+        <div class="sidebar">
+          <nav>
+            <ul class="sidebar__list">
+              <li><a class="active" href="index.html">Home</a></li>
+              <li><a href="itens.html">Itens</a></li>
+              <li><a href="spells.html">Spells</a></li>
+              <li><a href="npcs.html">NPCs</a></li>
+              <li><a href="bosses.html">Bosses</a></li>
+            </ul>
+          </nav>
+        </div>
+        <main class="main-content">
+          <!-- Seção de Home -->
+          <section class="section welcome">
+            <div class="welcome__content">
+              <h1>Bem-vindo à Wiki de Hollow Knight</h1>
+              <p>
+                Explore o mundo de Hallownest e descubra todos os segredos,
+                itens, feitiços, NPCs e chefes.
+              </p>
+            </div>
+            <img
+              src="images/backhome.png"
+              alt="Hollow Knight"
+              class="welcome__image"
+            />
+          </section>
 
-        <!-- Seção de itens -->
-        <section class="section secondary">
-          <div class="section__div">
-            <h2 class="titulo__section">Itens</h2>
-            <p class="para__section">
-              Descubra todos os itens que você pode encontrar em Hallownest.
-            </p>
-            <a href="itens.html" class="section__link">Ver mais</a>
-          </div>
-          <img src="images/inventory.png" alt="Itens" class="section__imagem" />
-        </section>
+          <!-- Seção de itens -->
+          <section class="section secondary">
+            <div class="section__div">
+              <h2 class="titulo__section">Itens</h2>
+              <p class="para__section">
+                Descubra todos os itens que você pode encontrar em Hallownest.
+              </p>
+              <a href="itens.html" class="section__link">Ver mais</a>
+            </div>
+            <img
+              src="images/inventory.png"
+              alt="Itens"
+              class="section__imagem"
+            />
+          </section>
 
-        <!-- Seção de feitiços -->
-        <section class="section secondary">
-          <div class="section__div">
-            <h2 class="titulo__section">Feitiços</h2>
-            <p class="para__section">
-              Aprenda sobre todos os feitiços e habilidades mágicas disponíveis.
-            </p>
-            <a href="spells.html" class="section__link">Ver mais</a>
-          </div>
-          <img
-            src="images/feitico.jpg  "
-            alt="Feitiços"
-            class="section__imagem"
-          />
-        </section>
+          <!-- Seção de feitiços -->
+          <section class="section secondary">
+            <div class="section__div">
+              <h2 class="titulo__section">Feitiços</h2>
+              <p class="para__section">
+                Aprenda sobre todos os feitiços e habilidades mágicas
+                disponíveis.
+              </p>
+              <a href="spells.html" class="section__link">Ver mais</a>
+            </div>
+            <img
+              src="images/feitico.jpg"
+              alt="Feitiços"
+              class="section__imagem"
+            />
+          </section>
 
-        <!-- Seção de NPCs -->
-        <section class="section secondary">
-          <div class="section__div">
-            <h2 class="titulo__section">NPCs</h2>
-            <p class="para__section">
-              Conheça todos os personagens não jogáveis que você encontrará em
-              sua jornada.
-            </p>
-            <a href="npcs.html" class="section__link">Ver mais</a>
-          </div>
-          <img src="images/zott.png" alt="NPCs" class="section__imagem" />
-        </section>
+          <!-- Seção de NPCs -->
+          <section class="section secondary">
+            <div class="section__div">
+              <h2 class="titulo__section">NPCs</h2>
+              <p class="para__section">
+                Conheça todos os personagens não jogáveis que você encontrará em
+                sua jornada.
+              </p>
+              <a href="npcs.html" class="section__link">Ver mais</a>
+            </div>
+            <img src="images/zott.png" alt="NPCs" class="section__imagem" />
+          </section>
 
-        <!-- Seção de chefes -->
-        <section class="section secondary">
-          <div class="section__div">
-            <h2 class="titulo__section">Bosses</h2>
-            <p class="para__section">
-              Enfrente os chefes mais desafiadores de Hallownest.
-            </p>
-            <a href="bosses.html" class="section__link">Ver mais</a>
-          </div>
-          <img src="images/grim.gif" alt="Chefes" class="section__imagem" />
-        </section>
-      </main>
+          <!-- Seção de chefes -->
+          <section class="section secondary">
+            <div class="section__div">
+              <h2 class="titulo__section">Bosses</h2>
+              <p class="para__section">
+                Enfrente os chefes mais desafiadores de Hallownest.
+              </p>
+              <a href="bosses.html" class="section__link">Ver mais</a>
+            </div>
+            <img src="images/grim.gif" alt="Chefes" class="section__imagem" />
+          </section>
+        </main>
+      </div>
       <footer class="rodape">
         <img src="images/fandomheader.png" alt="Fandom" class="rodape__logo" />
         <ul class="rodape__list">
