@@ -250,7 +250,6 @@ header {
   top: 70px; /* Altura do cabeçalho */
   bottom: 0;
   left: 0;
-  padding: 20px;
   overflow-y: auto;
 }
 
@@ -268,7 +267,7 @@ header {
   text-decoration: none;
   font-size: 18px;
   display: block;
-  padding: 10px 0px;
+  padding: 10px 20px;
 }
 
 .sidebar__list li a:hover {
