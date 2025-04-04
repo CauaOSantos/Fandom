@@ -300,5 +300,9 @@ table .giftable {
 }
 
 .tfoot_link:hover {
-  color: #ff0000; /* Vermelho brilhante para destaque no hover */
+  color: #ff0000;
+}
+
+thead {
+  padding: ;
 }
